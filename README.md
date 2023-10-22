@@ -23,6 +23,14 @@ This website will support you in understanding the definition and benefits of Se
 
 N/A
 
+## Screenshot
+![Alt text](<Screenshot Horiseon.png>)
+
+## Deployed application
+
+https://tosin1691.github.io/Horiseon-search-engine-optimization/
+
+
 ## License
 
 Please refer to the LICENSE in the repo.
