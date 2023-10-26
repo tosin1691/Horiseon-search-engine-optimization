@@ -1,14 +1,17 @@
 * {
+    /* Ensures that paddings and borders are included in the total width and height for all elements and sets default padding and margin for all elements in the browser to zero */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /*Sets background color for the body of the page*/
     background-color: #d9dcd6;
 }
 
 header {
+    /*adds padding, sets font, font color and background color for the header element*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,15 +19,18 @@ header {
 }
 
 header h1 {
+    /*Sets h1 element in the header to inline-block including font size*/
     display: inline-block;
     font-size: 48px;
 }
 
 header h1 #seo {
+     /*sets text color for span element within the h1 element of the header*/
     color: #d9dcd6;
 }
 
 header nav {
+     /*sets font text and size and adds padding and margin to the nav element in the header*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,24 +39,34 @@ header nav {
 }
 
 header nav ul {
+     /*removes default bullets that comes with the list in the nav bar in the header element*/
     list-style-type: none;
 }
 
 header nav ul li {
+     /*sets list in the nav bar of the header element to inline-block so it is displayed side by side*/
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
+     /*set font colour for anchor tags and removes any default text decor*/
     color: #ffffff;
     text-decoration: none;
 }
 
+a:hover {
+      /*set font colour for anchor tags to blue when users hover the links in the nav bar*/
+    color: #0072bb;
+}
+
 p {
+     /*defines font size for all paragraph element in the webpage*/
     font-size: 16px;
 }
 
 #cover-photo {
+     /*sets height, width, fit and margin for the cover photo on the webpage*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,22 +74,49 @@ p {
 }
 
 .float-left {
+     /*sets images with class = float-left to float to the left*/
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+     /*sets images with class = float-right to float to the right*/
     float: right;
     margin-left: 25px;
 }
 
 #content {
+     /*sets the main container to display as inline-block thus enabling us to set the width*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content-containers  {
+     /*sets a margin, padding, font, background color and font color of three sections within the main container*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.nav-content-images {
+     /*set the maximum height of all images in our main container irrespective of the screen size */
+    max-height: 200px;
+}
+
+
+.nav-content-title {
+     /*sets a margin and font size of the title of our sections within the main container*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
 #benefits {
+     /*add margin, padding, width, heights, font type and backgrounf color for the aside container*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -85,43 +128,28 @@ p {
 }
 
 .benefit-points {
+     /*sets margin and font color for the sections inside the aside container*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 
 .benefits-header {
+     /*adds margin and aligns the headers in the aside sections to be centred*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 
 .benefit-images {
-    display: block;
+     /*displays images in the aside sections as block items and sets a maximum width*/
     margin: 10px auto;
     max-width: 150px;
 }
 
-.content-containers  {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.nav-content-images {
-    max-height: 200px;
-}
-
-
-.nav-content-title {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 footer {
+     /*adds padding, font type and align footer text to the centre*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -129,5 +157,6 @@ footer {
 }
 
 footer h3 {
+     /*set font size of the h3 element within the footer*/
     font-size: 20px;
 }
